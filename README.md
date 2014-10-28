@@ -4,7 +4,7 @@ MD2Combiner
 Combines all frames from two MD2s into one MD2
 
 ##Usage
-MD2Combiner <input1.md2> <input2.md2> <output.md2>
+MD2Combiner input1.md2 input2.md2 output.md2
 
 For example:
 
