@@ -75,7 +75,5 @@ struct md2_model_t {
 	GLuint tex_id;
 };
 
-extern vec3_t anorms_table[162];
-
 int ReadMD2Model(const char *filename, struct md2_model_t *mdl);
 void FreeModel(struct md2_model_t *mdl);

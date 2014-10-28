@@ -29,10 +29,6 @@
 
 #include "MD2.h"
 
-vec3_t anorms_table[162] = {
-	//#include "anorms.h"
-};
-
 /**
  * Load an MD2 model from file.
  *
