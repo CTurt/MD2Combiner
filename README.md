@@ -16,4 +16,4 @@ For Windows, run `make` on the directory and it should build `MD2Combiner.exe`.
 I haven't tested building with other OSes, you may need to make some tweaks to the Makefile (remove `.exe` from `TARGET`).
 
 ##Acknowledgements
-David Henry - the MD2 loading code
+[David Henry](http://tfc.duke.free.fr/coding/md2-specs-en.html) - the MD2 loading code
