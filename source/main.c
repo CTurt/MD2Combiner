@@ -82,6 +82,7 @@ int main(int argc, char *argv[]) {
 	fseek(f, combinedHeader.offset_glcmds, SEEK_SET);
 	fwrite(md2inputs[0].glcmds, sizeof(int), combinedHeader.num_glcmds, f);
 	
+	fseek(f, combinedHeader.offset_frames, SEEK_SET);
 	int n, i;
 	for(n = 0; n < 2; n++) {
 		for(i = 0; i < md2inputs[n].header.num_frames; i++) {
