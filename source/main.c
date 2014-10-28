@@ -1,5 +1,7 @@
 #include "MD2.h"
 
+#define VERSION "0.1"
+
 struct md2_model_t md2inputs[2];
 struct md2_header_t combinedHeader;
 
@@ -9,8 +11,10 @@ void cleanup(void) {
 }
 
 int main(int argc, char *argv[]) {
+	printf("MD2Combiner %s - Combines all frames from two MD2s into one MD2\n\n", VERSION);
+	
 	if(argc != 4) {
-		printf("MD2Combiner - Combines all frames from two MD2s into one MD2\n\nUsage: %s <input1.md2> <input2.md2> <output.md2>\n", argv[0]);
+		printf("Usage: %s <input1.md2> <input2.md2> <output.md2>\n", argv[0]);
 		return -1;
 	}
 	
